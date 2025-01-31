@@ -1,9 +1,17 @@
-.text_wisteria {
+/* .text_wisteria {
   color: #8e44ad;
 }
 
 .bg_wisteria {
   background-color: #8e44ad;
+} */
+
+.text_green_tea {
+  color: #16a085;
+}
+
+.bg_green_tea {
+  background-color: #16a085;
 }
 
 .fit_content {
