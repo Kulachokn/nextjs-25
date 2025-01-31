@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/anastasiia/Desktop/test/learning-nextjs--codespaces--5914444/exercise-files/04/04_03/src/app/layout\":[\"static/media/a34f9d1faa5f3315-s.p.woff2\",\"static/media/47cbc4e2adbc5db9-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/anastasiia/Desktop/nextjs-course-25/src/app/layout":["static/media/a34f9d1faa5f3315-s.p.woff2","static/media/47cbc4e2adbc5db9-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
