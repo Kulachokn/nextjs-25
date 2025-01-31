@@ -89,6 +89,94 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+/***/ "buffer":
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -100,6 +188,28 @@ module.exports = require("path");
 
 /***/ }),
 
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
 /***/ "url":
 /*!**********************!*\
   !*** external "url" ***!
@@ -108,6 +218,17 @@ module.exports = require("path");
 
 "use strict";
 module.exports = require("url");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
 
 /***/ }),
 
@@ -202,7 +323,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Page)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _app_lib_placeholder_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/app/lib/placeholder-data */ \"(rsc)/./src/app/lib/placeholder-data.js\");\n/* harmony import */ var _app_lib_placeholder_data__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_lib_placeholder_data__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _app_ui_components_posts_Post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/app/ui/components/posts/Post */ \"(rsc)/./src/app/ui/components/posts/Post.tsx\");\n\n\n\nfunction Page() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Posts\"\n            }, void 0, false, {\n                fileName: \"/Users/anastasiia/Desktop/nextjs-course-25/src/app/blog/posts/page.tsx\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this),\n            _app_lib_placeholder_data__WEBPACK_IMPORTED_MODULE_1__.posts.map((post)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_app_ui_components_posts_Post__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                    ...post\n                }, post.id, false, {\n                    fileName: \"/Users/anastasiia/Desktop/nextjs-course-25/src/app/blog/posts/page.tsx\",\n                    lineNumber: 8,\n                    columnNumber: 28\n                }, this))\n        ]\n    }, void 0, true);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2Jsb2cvcG9zdHMvcGFnZS50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFtRDtBQUNEO0FBRW5DLFNBQVNFO0lBQ3RCLHFCQUNFOzswQkFDRSw4REFBQ0M7MEJBQUc7Ozs7OztZQUNISCw0REFBS0EsQ0FBQ0ksR0FBRyxDQUFDLENBQUNDLHFCQUFTLDhEQUFDSixxRUFBSUE7b0JBQWdCLEdBQUdJLElBQUk7bUJBQWpCQSxLQUFLQyxFQUFFOzs7Ozs7O0FBRTdDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbmV4dGpzLWJsb2cvLi9zcmMvYXBwL2Jsb2cvcG9zdHMvcGFnZS50c3g/ZjI3YiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBwb3N0cyB9IGZyb20gJ0AvYXBwL2xpYi9wbGFjZWhvbGRlci1kYXRhJztcbmltcG9ydCBQb3N0IGZyb20gJ0AvYXBwL3VpL2NvbXBvbmVudHMvcG9zdHMvUG9zdCc7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFBhZ2UoKSB7XG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxoMT5Qb3N0czwvaDE+XG4gICAgICB7cG9zdHMubWFwKChwb3N0KSA9PiA8UG9zdCBrZXk9e3Bvc3QuaWR9IHsuLi5wb3N0fSAvPil9XG4gICAgPC8+KVxufSJdLCJuYW1lcyI6WyJwb3N0cyIsIlBvc3QiLCJQYWdlIiwiaDEiLCJtYXAiLCJwb3N0IiwiaWQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./src/app/blog/posts/page.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Page)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _app_lib_placeholder_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/app/lib/placeholder-data */ \"(rsc)/./src/app/lib/placeholder-data.js\");\n/* harmony import */ var _app_lib_placeholder_data__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_lib_placeholder_data__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _app_ui_components_posts_Post__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/app/ui/components/posts/Post */ \"(rsc)/./src/app/ui/components/posts/Post.tsx\");\n/* harmony import */ var _app_lib_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/app/lib/data */ \"(rsc)/./src/app/lib/data.ts\");\n\n\n\n\nasync function Page() {\n    const client = await (0,_app_lib_data__WEBPACK_IMPORTED_MODULE_3__.connectToDB)();\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            client && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                className: \"text-green-500\",\n                children: \"Connected to database\"\n            }, void 0, false, {\n                fileName: \"/Users/anastasiia/Desktop/nextjs-course-25/src/app/blog/posts/page.tsx\",\n                lineNumber: 9,\n                columnNumber: 16\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Posts\"\n            }, void 0, false, {\n                fileName: \"/Users/anastasiia/Desktop/nextjs-course-25/src/app/blog/posts/page.tsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            _app_lib_placeholder_data__WEBPACK_IMPORTED_MODULE_1__.posts.map((post)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_app_ui_components_posts_Post__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                    ...post\n                }, post.id, false, {\n                    fileName: \"/Users/anastasiia/Desktop/nextjs-course-25/src/app/blog/posts/page.tsx\",\n                    lineNumber: 11,\n                    columnNumber: 28\n                }, this))\n        ]\n    }, void 0, true);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2Jsb2cvcG9zdHMvcGFnZS50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBbUQ7QUFDRDtBQUNMO0FBRTlCLGVBQWVHO0lBQzVCLE1BQU1DLFNBQVMsTUFBTUYsMERBQVdBO0lBQ2hDLHFCQUNFOztZQUNDRSx3QkFBVSw4REFBQ0M7Z0JBQUVDLFdBQVU7MEJBQWlCOzs7Ozs7MEJBQ3ZDLDhEQUFDQzswQkFBRzs7Ozs7O1lBQ0hQLDREQUFLQSxDQUFDUSxHQUFHLENBQUMsQ0FBQ0MscUJBQVMsOERBQUNSLHFFQUFJQTtvQkFBZ0IsR0FBR1EsSUFBSTttQkFBakJBLEtBQUtDLEVBQUU7Ozs7Ozs7QUFFN0MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0anMtYmxvZy8uL3NyYy9hcHAvYmxvZy9wb3N0cy9wYWdlLnRzeD9mMjdiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHBvc3RzIH0gZnJvbSAnQC9hcHAvbGliL3BsYWNlaG9sZGVyLWRhdGEnO1xuaW1wb3J0IFBvc3QgZnJvbSAnQC9hcHAvdWkvY29tcG9uZW50cy9wb3N0cy9Qb3N0JztcbmltcG9ydCB7IGNvbm5lY3RUb0RCIH0gZnJvbSAnQC9hcHAvbGliL2RhdGEnO1xuXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBQYWdlKCkge1xuICBjb25zdCBjbGllbnQgPSBhd2FpdCBjb25uZWN0VG9EQigpO1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAge2NsaWVudCAmJiA8cCBjbGFzc05hbWU9J3RleHQtZ3JlZW4tNTAwJz5Db25uZWN0ZWQgdG8gZGF0YWJhc2U8L3A+fVxuICAgICAgPGgxPlBvc3RzPC9oMT5cbiAgICAgIHtwb3N0cy5tYXAoKHBvc3QpID0+IDxQb3N0IGtleT17cG9zdC5pZH0gey4uLnBvc3R9IC8+KX1cbiAgICA8Lz4pXG59Il0sIm5hbWVzIjpbInBvc3RzIiwiUG9zdCIsImNvbm5lY3RUb0RCIiwiUGFnZSIsImNsaWVudCIsInAiLCJjbGFzc05hbWUiLCJoMSIsIm1hcCIsInBvc3QiLCJpZCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./src/app/blog/posts/page.tsx\n");
 
 /***/ }),
 
@@ -214,6 +335,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Roboto_arguments_weight_400_700_style_normal_subsets_latin_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"style\":[\"normal\"],\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.tsx\\\",\\\"import\\\":\\\"Roboto\\\",\\\"arguments\\\":[{\\\"weight\\\":[\\\"400\\\",\\\"700\\\"],\\\"style\\\":[\\\"normal\\\"],\\\"subsets\\\":[\\\"latin\\\"],\\\"display\\\":\\\"swap\\\"}],\\\"variableName\\\":\\\"roboto\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Roboto_arguments_weight_400_700_style_normal_subsets_latin_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Roboto_arguments_weight_400_700_style_normal_subsets_latin_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _app_ui_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/app/ui/styles/globals.css */ \"(rsc)/./src/app/ui/styles/globals.css\");\n\n\n\n\nconst metadata = {\n    title: \"Create Next App\",\n    description: \"Generated by create next app\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: (next_font_google_target_css_path_src_app_layout_tsx_import_Roboto_arguments_weight_400_700_style_normal_subsets_latin_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_2___default().className),\n            children: children\n        }, void 0, false, {\n            fileName: \"/Users/anastasiia/Desktop/nextjs-course-25/src/app/layout.tsx\",\n            lineNumber: 25,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/anastasiia/Desktop/nextjs-course-25/src/app/layout.tsx\",\n        lineNumber: 24,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2xheW91dC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFJTUE7QUFFQUM7QUFKK0I7QUFVOUIsTUFBTUMsV0FBcUI7SUFDaENDLE9BQU87SUFDUEMsYUFBYTtBQUNmLEVBQUU7QUFFYSxTQUFTQyxXQUFXLEVBQ2pDQyxRQUFRLEVBR1I7SUFDQSxxQkFDRSw4REFBQ0M7UUFBS0MsTUFBSztrQkFDVCw0RUFBQ0M7WUFBS0MsV0FBV1QsME1BQWdCO3NCQUFHSzs7Ozs7Ozs7Ozs7QUFHMUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0anMtYmxvZy8uL3NyYy9hcHAvbGF5b3V0LnRzeD81N2E5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB0eXBlIHsgTWV0YWRhdGEgfSBmcm9tIFwibmV4dFwiO1xuaW1wb3J0IHsgSW50ZXIsIFJvYm90byB9IGZyb20gXCJuZXh0L2ZvbnQvZ29vZ2xlXCI7XG5pbXBvcnQgXCJAL2FwcC91aS9zdHlsZXMvZ2xvYmFscy5jc3NcIjtcblxuY29uc3QgaW50ZXIgPSBJbnRlcih7IHN1YnNldHM6IFtcImxhdGluXCJdIH0pO1xuXG5jb25zdCByb2JvdG8gPSBSb2JvdG8oe1xuICB3ZWlnaHQ6IFsnNDAwJywgJzcwMCddLFxuICBzdHlsZTogWydub3JtYWwnXSxcbiAgc3Vic2V0czogWydsYXRpbiddLFxuICBkaXNwbGF5OiAnc3dhcCcsXG59KVxuZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHtcbiAgdGl0bGU6IFwiQ3JlYXRlIE5leHQgQXBwXCIsXG4gIGRlc2NyaXB0aW9uOiBcIkdlbmVyYXRlZCBieSBjcmVhdGUgbmV4dCBhcHBcIixcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoe1xuICBjaGlsZHJlbixcbn06IFJlYWRvbmx5PHtcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTtcbn0+KSB7XG4gIHJldHVybiAoXG4gICAgPGh0bWwgbGFuZz1cImVuXCI+XG4gICAgICA8Ym9keSBjbGFzc05hbWU9e3JvYm90by5jbGFzc05hbWV9PntjaGlsZHJlbn08L2JvZHk+XG4gICAgPC9odG1sPlxuICApO1xufVxuIl0sIm5hbWVzIjpbImludGVyIiwicm9ib3RvIiwibWV0YWRhdGEiLCJ0aXRsZSIsImRlc2NyaXB0aW9uIiwiUm9vdExheW91dCIsImNoaWxkcmVuIiwiaHRtbCIsImxhbmciLCJib2R5IiwiY2xhc3NOYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/layout.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/lib/data.ts":
+/*!*****************************!*\
+  !*** ./src/app/lib/data.ts ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   connectToDB: () => (/* binding */ connectToDB)\n/* harmony export */ });\n/* harmony import */ var _vercel_postgres__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vercel/postgres */ \"(rsc)/./node_modules/@vercel/postgres/dist/index-node.js\");\n\nasync function connectToDB() {\n    const client = (0,_vercel_postgres__WEBPACK_IMPORTED_MODULE_0__.createClient)();\n    await client.connect();\n    try {\n        if (client) {\n            console.log(\"Connected to database\");\n            return client;\n        }\n    } catch (error) {\n        console.log(\"Error connecting to database\", error);\n    }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2xpYi9kYXRhLnRzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQThDO0FBRXZDLGVBQWVDO0lBQ2xCLE1BQU1DLFNBQVNGLDhEQUFZQTtJQUMzQixNQUFNRSxPQUFPQyxPQUFPO0lBRXBCLElBQUk7UUFDQSxJQUFJRCxRQUFRO1lBQ1JFLFFBQVFDLEdBQUcsQ0FBQztZQUNaLE9BQU9IO1FBQ1g7SUFDSixFQUFFLE9BQU9JLE9BQU87UUFDWkYsUUFBUUMsR0FBRyxDQUFDLGdDQUFnQ0M7SUFDaEQ7QUFFSiIsInNvdXJjZXMiOlsid2VicGFjazovL25leHRqcy1ibG9nLy4vc3JjL2FwcC9saWIvZGF0YS50cz9mYjAyIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7Y3JlYXRlQ2xpZW50fSBmcm9tICdAdmVyY2VsL3Bvc3RncmVzJztcblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGNvbm5lY3RUb0RCKCkge1xuICAgIGNvbnN0IGNsaWVudCA9IGNyZWF0ZUNsaWVudCgpO1xuICAgIGF3YWl0IGNsaWVudC5jb25uZWN0KCk7XG5cbiAgICB0cnkge1xuICAgICAgICBpZiAoY2xpZW50KSB7XG4gICAgICAgICAgICBjb25zb2xlLmxvZygnQ29ubmVjdGVkIHRvIGRhdGFiYXNlJyk7XG4gICAgICAgICAgICByZXR1cm4gY2xpZW50O1xuICAgICAgICB9XG4gICAgfSBjYXRjaCAoZXJyb3IpIHtcbiAgICAgICAgY29uc29sZS5sb2coJ0Vycm9yIGNvbm5lY3RpbmcgdG8gZGF0YWJhc2UnLCBlcnJvcik7XG4gICAgfVxuICAgIFxufSJdLCJuYW1lcyI6WyJjcmVhdGVDbGllbnQiLCJjb25uZWN0VG9EQiIsImNsaWVudCIsImNvbm5lY3QiLCJjb25zb2xlIiwibG9nIiwiZXJyb3IiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./src/app/lib/data.ts\n");
 
 /***/ }),
 
@@ -297,7 +429,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@heroicons","vendor-chunks/clsx"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fblog%2Fposts%2Fpage&page=%2Fblog%2Fposts%2Fpage&appPaths=%2Fblog%2Fposts%2Fpage&pagePath=private-next-app-dir%2Fblog%2Fposts%2Fpage.tsx&appDir=%2FUsers%2Fanastasiia%2FDesktop%2Fnextjs-course-25%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fanastasiia%2FDesktop%2Fnextjs-course-25&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/ws","vendor-chunks/@heroicons","vendor-chunks/@vercel","vendor-chunks/utf-8-validate","vendor-chunks/node-gyp-build","vendor-chunks/bufferutil","vendor-chunks/@neondatabase","vendor-chunks/clsx"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fblog%2Fposts%2Fpage&page=%2Fblog%2Fposts%2Fpage&appPaths=%2Fblog%2Fposts%2Fpage&pagePath=private-next-app-dir%2Fblog%2Fposts%2Fpage.tsx&appDir=%2FUsers%2Fanastasiia%2FDesktop%2Fnextjs-course-25%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fanastasiia%2FDesktop%2Fnextjs-course-25&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
