@@ -17,8 +17,8 @@ export async function connectToDB() {
 
 export async function getPosts() {
   try {
-    const data = await sql `SELECT * FROM posts`;
-
+    const data = await sql`SELECT * FROM posts`;
+    await new Promise((resolve) => setTimeout(resolve, 3000));
     // console.log(data.rows);
     return data.rows;
   } catch (error) {

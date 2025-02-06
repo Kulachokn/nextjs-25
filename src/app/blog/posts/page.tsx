@@ -1,12 +1,12 @@
 import Link from "next/link"
 import { Button } from "@/app/ui/components/button"
-import { posts } from '@/app/lib/placeholder-data';
+// import { posts } from '@/app/lib/placeholder-data';
 import Post from '@/app/ui/components/posts/Post';
 import { connectToDB, getPosts } from '@/app/lib/data';
 
 export default async function Page() {
   const client = await connectToDB();
-  const _posts = await getPosts();
+  const posts = await getPosts();
   
   return (
     <>
