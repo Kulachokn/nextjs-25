@@ -27,3 +27,14 @@ export async function getPosts(): Promise<Post[]> {
     return [];
   }
 }
+
+// export async function getPostByID(id: string) {
+//   try {
+//   const post = await sql`SELECT * FROM posts WHERE id = id`;
+//   return post;
+//   }catch (error) {
+//     console.error('Database Error:', error);
+//     throw new Error('Failed to fetch invoice.');
+//   }
+  
+// }
