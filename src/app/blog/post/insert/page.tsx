@@ -49,10 +49,12 @@ export default function Page() {
   }
 
   useEffect(() => {
-    getSession().then((session) => 
-      // setUser(session?.user)
-    setUser(session?.user || null)
-    )
+    getSession().then((session) => {
+      setUser(session?.user || null);
+      if (!session?.user) {
+        router.push('/blog/posts');
+      }
+    })
   }, []);
 
 
